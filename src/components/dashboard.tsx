@@ -1,7 +1,9 @@
+import { StudentList } from "./StudentList";
+
 export function Dashboard() {
     return (
       <>
-        <div>Dashboard</div>
+        <StudentList></StudentList>
       </>
     )
 }

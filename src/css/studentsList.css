@@ -1,0 +1,89 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+  min-height: 100vh;
+}
+
+table {
+  width: 100%;
+  max-width: 1200px;
+  border-collapse: collapse;
+  background-color: #2e2e2e;
+  color: #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #333;
+}
+
+th {
+  padding: 1rem 2rem;
+  text-align: center;
+  border-bottom: 2px solid #444;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #2c2c2c;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #1e1e1e;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+button.edit {
+  background-color: #28a745;
+}
+
+button.edit:hover {
+  background-color: #218838;
+}
+
+button.grade {
+  background-color: #ffc107;
+}
+
+button.grade:hover {
+  background-color: #e0a800;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
